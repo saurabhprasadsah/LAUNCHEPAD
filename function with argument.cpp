@@ -6,13 +6,18 @@ class sample
 {
 	private:
 		int x,y;
-		public:
-			void getdata(int a, int b)
-			{
-				x=a;
-				y=b;
-			}
-			void showdata();
+	public:
+	
+	       void getdata(int a, int b)
+			                      {
+				            x=a;
+				            y=b;
+		                          	}
+			
+	
+	
+	
+	void showdata();
 };
 void sample::showdata()
 {
